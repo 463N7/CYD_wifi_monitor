@@ -1,0 +1,12 @@
+{
+  "name": "CYD WiFi Monitor",
+  "version": "1.0.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "CYD_wifi_monitor_v1.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
