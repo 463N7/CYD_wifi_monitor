@@ -65,7 +65,8 @@ cd cyd-wifi-air-monitor
 You can flash prebuilt firmware using your browser (Chrome).  
 
 1. Go to the [**Releases**](https://github.com/yourusername/cyd-wifi-air-monitor/releases) page  
-2. Use SpaceHunn [**Web Flasher**](https://esptool.spacehuhn.com/)
+2. Use web flasher [![Flash Firmware](https://img.shields.io/badge/Flash%20with%20Web%20Flasher-blue?logo=esphome)](https://esphome.github.io/esp-web-tools/?url=https://github.com/463N7/CYD_wifi_monitor/releases/latest/download/firmware.json)
+
 
 ---
 
