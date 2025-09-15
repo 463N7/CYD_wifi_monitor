@@ -2,7 +2,7 @@
 
 A simple Wi-Fi congestion monitor for the **Cheap Yellow Display (CYD)**  
 (ESP32 + 2.8" ILI9341 TFT + XPT2046 touchscreen).  
-
+ 
 It scans 2.4 GHz networks and visualizes channel usage as bar graphs,  
 or lists the strongest SSIDs. Tap the screen to switch views instantly.  
 
