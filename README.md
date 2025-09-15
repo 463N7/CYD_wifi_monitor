@@ -61,15 +61,6 @@ cd cyd-wifi-air-monitor
 
 ---
 
-## ⚡ Easy Flash (No VS Code Needed)
-You can flash prebuilt firmware using your browser (Chrome).  
-
-1. Go to the [**Releases**](https://github.com/yourusername/cyd-wifi-air-monitor/releases) page  
-2. Use web flasher [![Flash Firmware](https://img.shields.io/badge/Flash%20with%20Web%20Flasher-blue?logo=esphome)](https://esphome.github.io/esp-web-tools/?url=[https://github.com/463N7/CYD_wifi_monitor/releases/tag/v1.0.0/download/firmware.json])
-
-
----
-
 ## ▶️ Usage
 - The display boots into **Channel Overview** (bar graph).  
 - Tap the screen to switch to **SSID Feed** (top 12 strongest networks).  
