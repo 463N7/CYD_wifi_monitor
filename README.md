@@ -84,7 +84,10 @@ cd cyd-wifi-air-monitor
 ## ▶️ Usage
 - The display boots into **Channel Overview** (bar graph).  
 - Tap the screen to switch to **SSID Feed** (top 12 strongest networks).  
-- Scans run automatically every few seconds and update results live.  
+- Scans run automatically every few seconds and update results live.
+
+- If your screen is rotated and mirrored wrong use the Firmware named rotate and mirror
+- there is still atleast one version of the CYD this dosnt work with
 
 ---
 
