@@ -44,7 +44,7 @@ or lists the strongest SSIDs. Tap the screen to switch views instantly.
 
 ## 🔧 Easy Flash Using webflasher
 
-### 1. Download 3 bins from the releace page (partitions.bin, bootloader.bin and CYD_wifi_monitor)v*.bin
+### 1. Download 3 bins from the releace page (partitions.bin, bootloader.bin and CYD_wifi_monitor_v*.bin
 
 ### 2. Go to the [ESP WEB FLASHER](https://espressif.github.io/esptool-js/)
 
