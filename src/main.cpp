@@ -288,7 +288,7 @@ void setup()
 
   // --- LCD smoke test ---
   lcd.init();            // power up panel
-  lcd.setRotation(6);    // Use 1 by default Use 6 if screen is rotated wrong (also adjust screen size in display.h)
+  lcd.setRotation(1);    // Use 1 by default Use 6 if screen is rotated wrong (also adjust screen size in display.h)
   lcd.setColorDepth(16);
   lcd.setBrightness(200);// 0..255 (if BL pin is correct)
 
