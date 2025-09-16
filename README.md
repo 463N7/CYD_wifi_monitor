@@ -42,6 +42,26 @@ or lists the strongest SSIDs. Tap the screen to switch views instantly.
 
 ---
 
+## 🔧 Easy Flash Using webflasher
+
+### 1. Download 3 bins from the releace page (partitions.bin, bootloader.bin and CYD_wifi_monitor)v*.bin
+
+### 2. Go to the [ESP WEB FLASHER](https://espressif.github.io/esptool-js/)
+
+### 3. Set the flash addresses as follows
+- 0x1000 bootloader.bin
+- 0x8000 partitions.bin
+- 0x10000 CYD_wifi_monitor_v*.bin
+
+### 4. Press Program
+
+### 5. Restart your CYD (unplug and plug back in)
+
+<img width="1051" height="604" alt="image" src="https://github.com/user-attachments/assets/146786dc-f1d2-4ec4-854b-f773a98f43e6" />
+
+
+---
+
 ## 🔧 Build From Source (Dev Setup)
 
 ### 1. Clone this repo
