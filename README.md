@@ -2,7 +2,7 @@
 
 A simple Wi-Fi congestion monitor for the **Cheap Yellow Display (CYD)**  
 (ESP32 + 2.8" ILI9341 TFT + XPT2046 touchscreen).  
-
+ 
 It scans 2.4 GHz networks and visualizes channel usage as bar graphs,  
 or lists the strongest SSIDs. Tap the screen to switch views instantly.  
 
@@ -42,6 +42,26 @@ or lists the strongest SSIDs. Tap the screen to switch views instantly.
 
 ---
 
+## 🔧 Easy Flash Using webflasher
+
+### 1. Download 3 bins from the releace page (partitions.bin, bootloader.bin and CYD_wifi_monitor_v*.bin
+
+### 2. Go to the [ESP WEB FLASHER](https://espressif.github.io/esptool-js/)
+
+### 3. Set the flash addresses as follows
+- 0x1000 bootloader.bin
+- 0x8000 partitions.bin
+- 0x10000 CYD_wifi_monitor_v*.bin
+
+### 4. Press Program
+
+### 5. Restart your CYD (unplug and plug back in)
+
+<img width="1051" height="604" alt="image" src="https://github.com/user-attachments/assets/146786dc-f1d2-4ec4-854b-f773a98f43e6" />
+
+
+---
+
 ## 🔧 Build From Source (Dev Setup)
 
 ### 1. Clone this repo
@@ -61,19 +81,13 @@ cd cyd-wifi-air-monitor
 
 ---
 
-## ⚡ Easy Flash (No VS Code Needed)
-You can flash prebuilt firmware using your browser (Chrome).  
-
-1. Go to the [**Releases**](https://github.com/yourusername/cyd-wifi-air-monitor/releases) page  
-2. Use web flasher [![Flash Firmware](https://img.shields.io/badge/Flash%20with%20Web%20Flasher-blue?logo=esphome)](https://esphome.github.io/esp-web-tools/?url=https://github.com/463N7/CYD_wifi_monitor/releases/latest/download/firmware.json)
-
-
----
-
 ## ▶️ Usage
 - The display boots into **Channel Overview** (bar graph).  
 - Tap the screen to switch to **SSID Feed** (top 12 strongest networks).  
-- Scans run automatically every few seconds and update results live.  
+- Scans run automatically every few seconds and update results live.
+
+- If your screen is rotated and mirrored wrong use the Firmware named rotate and mirror
+- there is still atleast one version of the CYD this dosnt work with
 
 ---
 

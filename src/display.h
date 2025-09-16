@@ -30,10 +30,10 @@ public:
       cfg.pin_rst  = -1;             // (-1 if tied to EN)
       cfg.pin_busy = -1;            // not used
 
-      cfg.memory_width   = 240;
-      cfg.memory_height  = 320;
-      cfg.panel_width    = 240;
-      cfg.panel_height   = 320;
+      cfg.memory_width   = 320; // swap height and width if screen is wrong (also adjust screen rotation under setup in main.cpp)
+      cfg.memory_height  = 240; // swap height and width if screen is wrong (also adjust screen rotation under setup in main.cpp)
+      cfg.panel_width    = 320; // swap height and width if screen is wrong (also adjust screen rotation under setup in main.cpp)
+      cfg.panel_height   = 240; // swap height and width if screen is wrong (also adjust screen rotation under setup in main.cpp)
       cfg.offset_x       = 0;
       cfg.offset_y       = 0;
       cfg.offset_rotation= 0;
